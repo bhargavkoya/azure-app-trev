@@ -25,6 +25,11 @@ namespace azure_app_trev.Controllers
         {
             return View();
         }
+        public IActionResult DeploymentSlots()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
