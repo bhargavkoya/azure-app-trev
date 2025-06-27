@@ -21,6 +21,12 @@ namespace azure_app_trev.Controllers
             return View();
         }
 
+        public IActionResult UATSlot()
+        {
+            ViewData["Greeting"] = _configuration["Greeting"] ?? "Hello, World! UAT";
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
