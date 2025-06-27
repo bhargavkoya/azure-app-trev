@@ -6,7 +6,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - azure-app-trev2025061
 on:
   push:
     branches:
-      - Staging
+      - master
   workflow_dispatch:
 
 jobs:
